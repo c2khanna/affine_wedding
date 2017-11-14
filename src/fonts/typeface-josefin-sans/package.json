@@ -1,0 +1,85 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "typeface-josefin-sans",
+        "scope": null,
+        "escapedName": "typeface-josefin-sans",
+        "name": "typeface-josefin-sans",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/chaitanyakhanna/Desktop/Projects/affine_weddings"
+    ]
+  ],
+  "_from": "typeface-josefin-sans@latest",
+  "_id": "typeface-josefin-sans@0.0.43",
+  "_inCache": true,
+  "_location": "/typeface-josefin-sans",
+  "_nodeVersion": "8.7.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/typeface-josefin-sans-0.0.43.tgz_1508965327511_0.10787218972109258"
+  },
+  "_npmUser": {
+    "name": "kylemathews",
+    "email": "mathews.kyle@gmail.com"
+  },
+  "_npmVersion": "5.3.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "typeface-josefin-sans",
+    "scope": null,
+    "escapedName": "typeface-josefin-sans",
+    "name": "typeface-josefin-sans",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/typeface-josefin-sans/-/typeface-josefin-sans-0.0.43.tgz",
+  "_shasum": "c34c015e41992c3d334715bea792cd6ba7595084",
+  "_shrinkwrap": null,
+  "_spec": "typeface-josefin-sans",
+  "_where": "/Users/chaitanyakhanna/Desktop/Projects/affine_weddings",
+  "author": {
+    "name": "Kyle Mathews",
+    "email": "mathews.kyle@gmail.com"
+  },
+  "dependencies": {},
+  "description": "Josefin Sans typeface",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-k2twXRolj00nHXo5d7N1UtSjz+eSdORykhAqQ3QGvPauIY6Jtisatuv3dYEvsmK5T6zL9c+jtQ3o9h15+LHvWw==",
+    "shasum": "c34c015e41992c3d334715bea792cd6ba7595084",
+    "tarball": "https://registry.npmjs.org/typeface-josefin-sans/-/typeface-josefin-sans-0.0.43.tgz"
+  },
+  "keywords": [
+    "typeface",
+    "font",
+    "font family",
+    "google fonts",
+    "josefin-sans"
+  ],
+  "license": "MIT",
+  "main": "index.css",
+  "maintainers": [
+    {
+      "name": "kylemathews",
+      "email": "mathews.kyle@gmail.com"
+    }
+  ],
+  "name": "typeface-josefin-sans",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KyleAMatthews/typefaces/tree/master/packages/josefin-sans"
+  },
+  "version": "0.0.43"
+}

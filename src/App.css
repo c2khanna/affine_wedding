@@ -1,0 +1,104 @@
+@font-face {
+ font-family: 'josefinSans';
+ src: local('josefineSans'), url('./fonts/typeface-josefin-sans/files/josefin-sans-latin-300.woff') format('woff');
+}
+
+.navBar {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.header{
+  font-family: josefinSans;
+  letter-spacing: 3px;
+}
+.navBarMenuMobile li a{
+  text-decoration: none;
+}
+
+.navBarMenuMobileList li{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.navBarMenuMobileList{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.navBarMenuList{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.navBarMenuList li{
+  float: left;
+}
+
+.navBarMenuList li a{
+  display: block;
+  text-align: center;
+  padding: 0px 15px;
+  text-decoration: none;
+}
+
+.navbar .outer{
+  position: relative;
+}
+
+.navBar .inner{
+  left: 0;
+  width: 100%;
+  position: absolute;
+}
+
+.navBarMenuList li a:hover{
+  color: #A55DB9;
+}
+
+.activeLink {
+  color: #A55DB9;
+}
+
+.logo img{
+  display: block;
+  margin: auto;
+}
+
+.welcome{
+  color: #999999;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footerContent {
+  margin: auto;
+  display: grid;
+}
+
+.footerContent hr {
+  border-color: #999999;
+}
+
+.icons {
+  margin: auto;
+}
+
+.icons img{
+  padding-left: 6px;
+  padding-right: 6px;
+  height: 40px;
+  width: 40px;
+}

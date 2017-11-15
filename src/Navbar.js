@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {NavLink} from 'react-router-dom';
-import SmoothCollapse from 'react-smooth-collapse';
 
 class Navbar extends Component {
   constructor(props) {
@@ -39,25 +38,29 @@ class Navbar extends Component {
           </ul>
         </div>
         <div className="navBarMenuMobile outer">
-          <i className="fa fa-bars fa-2x white" onClick={this.handleClick}></i>
+          <div className="hamburgerMenu bg-black">
+            <i className="fa fa-bars fa-2x white" onClick={this.handleClick}></i>
+          </div>
           <div className="inner">
-            <ul className={!this.state.isNavBarOpen ? 'hidden bg-black' : 'navBarMenuMobileList bg-black'}>
-              <li>
-                <NavLink exact to="/" className="white" activeClassName="activeLink">Home</NavLink>
-              </li>
-              <li>
-                <NavLink to="/aboutUs" className="white" activeClassName="activeLink">About Us</NavLink>
-              </li>
-              <li>
-                <NavLink to="/services" className="white" activeClassName="activeLink">Services</NavLink>
-              </li>
-              <li>
-                <NavLink to="/destinations" className="white" activeClassName="activeLink">Destinations</NavLink>
-              </li>
-              <li>
-                <NavLink to="/contactUs" className="white" activeClassName="activeLink">Contact Us</NavLink>
-              </li>
-            </ul>
+            <div className={!this.state.isNavBarOpen ? 'hidden bg-black' : 'navBarMenuMobileList bg-black'}>
+              <ul>
+                <li>
+                  <NavLink exact to="/" className="white" activeClassName="activeLink">Home</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/aboutUs" className="white" activeClassName="activeLink">About Us</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/services" className="white" activeClassName="activeLink">Services</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/destinations" className="white" activeClassName="activeLink">Destinations</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/contactUs" className="white" activeClassName="activeLink">Contact Us</NavLink>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

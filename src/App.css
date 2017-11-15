@@ -16,18 +16,41 @@
   text-decoration: none;
 }
 
+.hamburgerMenu{
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
 .navBarMenuMobileList li{
   padding-top: 15px;
   padding-bottom: 15px;
 }
-.navBarMenuMobileList{
+.navBarMenuMobileList ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.hidden {
-  display: none;
+.navBarMenuMobileList{
+  transform: translateY(0);
+  transition: all 1s ease;
+}
+
+.hidden ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hidden li{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.hidden{
+  transform: translateY(-100%);
+  transition: all 1s ease;
 }
 
 .navBarMenuList{
@@ -52,13 +75,17 @@
 }
 
 .navbar .outer{
+  z-index: 0;
   position: relative;
 }
 
 .navBar .inner{
+  top: 0;
   left: 0;
   width: 100%;
   position: absolute;
+  z-index: 1;
+  margin-top: 40px;
 }
 
 .navBarMenuList li a:hover{
@@ -75,6 +102,7 @@
 }
 
 .welcome{
+  margin-top: 54px;
   color: #999999;
 }
 

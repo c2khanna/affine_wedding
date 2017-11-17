@@ -3,7 +3,7 @@
  src: local('myFont'), url('./fonts/typeface-josefin-slab/files/josefin-slab-latin-300.woff') format('woff');
 }
 
-@media only screen and (min-width: 320px) and (max-width: 1072px) {
+@media only screen and (min-width: 320px) and (max-width: 400px) {
 	.logo img{
 		height: 80px;
 		width: 100px;
@@ -18,7 +18,22 @@
   }
 }
 
-@media only screen and (min-width: 1073px) {
+@media only screen and (min-width: 401px) and (max-width: 1022px) {
+	.logo img{
+		height: 120px;
+		width: 150px;
+	}
+
+  .navBarMenuMobile{
+    display: block;
+  }
+
+  .navBarMenu{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1023px) {
 	.logo img{
 		height: 160px;
 		width: 200px;

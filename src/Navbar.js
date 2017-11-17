@@ -18,22 +18,32 @@ class Navbar extends Component {
   render() {
     return (
       <div className="bg-black navBar tc ttu">
-        <div className="navBarMenu pt4 pb4">
+        <div className="navBarMenu">
           <ul className="navBarMenuList">
             <li>
-              <NavLink exact to="/" className="white" activeClassName="activeLink">Home</NavLink>
+              <NavLink exact to="/" className="white" activeClassName="activeLink">
+                <div className="navBarLink pt4 pb4">Home</div>
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/aboutUs" className="white" activeClassName="activeLink">About Us</NavLink>
+              <NavLink to="/aboutUs" className="white" activeClassName="activeLink">
+                <div className="navBarLink pt4 pb4">About Us</div>
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/services" className="white" activeClassName="activeLink">Services</NavLink>
+              <NavLink to="/services" className="white" activeClassName="activeLink">
+                <div className="navBarLink pt4 pb4">Services</div>
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/destinations" className="white" activeClassName="activeLink">Destinations</NavLink>
+              <NavLink to="/destinations" className="white" activeClassName="activeLink">
+                <div className="navBarLink pt4 pb4">Destinations</div>
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/contactUs" className="white" activeClassName="activeLink">Contact Us</NavLink>
+              <NavLink to="/contactUs" className="white" activeClassName="activeLink">
+                <div className="navBarLink pt4 pb4">Contact Us</div>
+              </NavLink>
             </li>
           </ul>
         </div>
@@ -45,19 +55,29 @@ class Navbar extends Component {
             <div className={!this.state.isNavBarOpen ? 'hidden bg-black' : 'navBarMenuMobileList bg-black'}>
               <ul>
                 <li>
-                  <NavLink exact to="/" className="white" activeClassName="activeLink">Home</NavLink>
+                  <NavLink exact to="/" className="white" activeClassName="activeLink">
+                    <div className="navBarLink">Home</div>
+                  </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/aboutUs" className="white" activeClassName="activeLink">About Us</NavLink>
+                  <NavLink to="/aboutUs" className="white" activeClassName="activeLink">
+                    <div className="navBarLink">About Us</div>
+                  </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/services" className="white" activeClassName="activeLink">Services</NavLink>
+                  <NavLink to="/services" className="white" activeClassName="activeLink">
+                    <div className="navBarLink">Services</div>
+                  </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/destinations" className="white" activeClassName="activeLink">Destinations</NavLink>
+                  <NavLink to="/destinations" className="white" activeClassName="activeLink">
+                    <div className="navBarLink">Destinations</div>
+                  </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/contactUs" className="white" activeClassName="activeLink">Contact Us</NavLink>
+                  <NavLink to="/contactUs" className="white" activeClassName="activeLink">
+                    <div className="navBarLink">Contact Us</div>
+                  </NavLink>
                 </li>
               </ul>
             </div>

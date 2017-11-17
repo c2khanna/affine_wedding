@@ -11,7 +11,7 @@ class Header extends Component {
           <div className="logo mt4 mb3">
             <img src={logo} alt="logo"/>
           </div>
-          <div className="welcome-text tc ttu">
+          <div className="welcome-text tc ttu mh2">
             Welcome to Affine Weddings
           </div>
         </div>

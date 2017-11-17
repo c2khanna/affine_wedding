@@ -53,3 +53,6 @@ body {
   padding: 0;
   font-family: myFont;
 }
+a{
+  text-decoration: none;
+}

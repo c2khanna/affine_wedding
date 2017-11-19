@@ -1,3 +1,18 @@
+.homePage{
+  margin: auto;
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.homePage .homePageButtonContainer{
+  width: 15%;
+}
+
+.homePageButtonContainer a{
+  text-decoration: none;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 500px) {
   .welcomeImg img{
     width: 90%;
@@ -53,19 +68,4 @@
     display: block;
     margin: auto;
   }
-}
-
-.homePage{
-  margin: auto;
-  display: block;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.homePage .homePageButtonContainer{
-  width: 15%;
-}
-
-.homePageButtonContainer a{
-  text-decoration: none;
 }

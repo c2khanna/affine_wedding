@@ -1,0 +1,52 @@
+.contactUsContent{
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.contactUsTitle{
+  color: #713F7E;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  width: 100%;
+}
+
+.contactUsTitle::after,
+.contactUsTitle::before{
+  display: inline-block;
+  content: "";
+  border-top: .1rem solid #713F7E;
+  width:25%;
+  margin: 0 1rem;
+  transform: translateY(-1rem);
+}
+
+.dropUsaLine {
+  font-family: boldSans;
+  color: black;
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+.contactUsFormContainer input,
+.contactUsFormContainer textarea{
+  width: 100%;
+  padding: 1%;
+  margin-bottom: 2rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.sendInquiryButtonContainer{
+  width: 25%;
+  display: block;
+  margin: auto;
+}
+
+.sendInquiryButton{
+  background-color: #713F7E;
+  font-family: josefinSans;
+  border-radius: 32px;
+  width: 100%;
+  display: block;
+  margin: auto;
+}

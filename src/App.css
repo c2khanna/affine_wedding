@@ -1,8 +1,3 @@
-@font-face {
- font-family: 'josefinSans';
- src: local('josefineSans'), url('./fonts/typeface-josefin-sans/files/josefin-sans-latin-300.woff') format('woff');
-}
-
 .navBar {
   text-align: center;
   vertical-align: middle;

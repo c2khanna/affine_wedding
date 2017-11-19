@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import Footer from './Footer';
-import WelcomeImg from './imgs/welcome_img.webp';
+import WelcomeImg from './imgs/welcome_img.png';
 import './Home.css';
 import {NavLink} from 'react-router-dom';
 
@@ -15,7 +15,7 @@ class App extends Component {
           <div className="welcomeImg">
             <img src={WelcomeImg} alt="welcome_pic"/>
           </div>
-          <div className="buttonContainer pa4">
+          <div className="homePageButtonContainer pa4">
             <NavLink to="/contactUs" className="white">
               <div className="contactUsButton ttu pv3">
               Get In Touch

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import './aboutUs.css';
-import aboutUsCakeImg from './imgs/aboutUsCake.webp';
+import aboutUsCakeImg from './imgs/aboutUsCake.png';
 
 class AboutUs extends Component {
   render() {
@@ -51,7 +51,6 @@ class AboutUs extends Component {
                 to us and enjoy every moment.
               </p>
               <br/>
-              <br/>
               <p>
                 Send us an email today or give us a quick call for a
                 no obligation consultation.
@@ -63,7 +62,7 @@ class AboutUs extends Component {
             </div>
           </div>
           <div className="rightContainer">
-            <div className="cakeImageContainer pb2">
+            <div className="cakeImageContainer pb2 tc">
               <img src={aboutUsCakeImg} alt="cakeImg"/>
             </div>
           </div>

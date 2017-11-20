@@ -20,7 +20,12 @@
   transform: translateY(-1rem);
 }
 
-.dropUsaLine {
+.belowContactUsForm{
+  font-size: 1.3rem;
+  font-family: boldSans;
+  color: #727272;
+}
+.boldContactUsText {
   font-family: boldSans;
   color: black;
   font-size: 1.75rem;
@@ -37,16 +42,98 @@
 }
 
 .sendInquiryButtonContainer{
-  width: 25%;
+  width: 35%;
   display: block;
   margin: auto;
 }
 
-.sendInquiryButton{
+.sendInquiryButtonContainer button{
   background-color: #713F7E;
   font-family: josefinSans;
   border-radius: 32px;
   width: 100%;
   display: block;
   margin: auto;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 800px) {
+  .contactUsContent{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .contactUsTitle{
+    color: #713F7E;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    width: 100%;
+    font-size: 2rem;
+  }
+
+  .contactUsTitle::after,
+  .contactUsTitle::before{
+    display: inline-block;
+    content: "";
+    border-top: .08rem solid #713F7E;
+    width:15%;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
+  }
+
+  .belowContactUsForm{
+    font-size: 1rem;
+    font-family: boldSans;
+    color: #727272;
+  }
+  .boldContactUsText {
+    font-family: boldSans;
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .sendInquiryButtonContainer{
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1500px) {
+  .contactUsContent{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .contactUsTitle{
+    color: #713F7E;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    width: 100%;
+    font-size: 2rem;
+  }
+
+  .contactUsTitle::after,
+  .contactUsTitle::before{
+    display: inline-block;
+    content: "";
+    border-top: .08rem solid #713F7E;
+    width:25%;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
+  }
+
+  .belowContactUsForm{
+    font-size: 1rem;
+    font-family: boldSans;
+    color: #727272;
+  }
+  .boldContactUsText {
+    font-family: boldSans;
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .sendInquiryButtonContainer{
+    width: 50%;
+  }
 }

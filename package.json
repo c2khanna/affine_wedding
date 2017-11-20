@@ -6,6 +6,7 @@
     "react-scripts": "1.0.17"
   },
   "dependencies": {
+    "@sendgrid/mail": "^6.1.4",
     "font-awesome": "^4.7.0",
     "react": "^16.1.0",
     "react-dom": "^16.1.0",

@@ -89,7 +89,7 @@ class Services extends Component {
                 travel needs. We can handle group travels, honeymoons,
                 Bachelorette trips, Stag trips and family vacations.
 
-                <div className="findOUtMoreButtonContainer pa4">
+                <div className="findOUtMoreButtonContainer">
                   <NavLink to="/services" className="white">
                     <div className="findOutMoreButton ttu pv3">
                     Find Out More

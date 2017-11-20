@@ -17,6 +17,7 @@ class ContactUs extends Component {
     this.handleEmailChange = this.handleEmailChange.bind(this);
     this.handleMessageChange = this.handleMessageChange.bind(this);
     this.handlePhoneChange = this.handlePhoneChange.bind(this);
+    this.handleSuccess = this.handleSuccess.bind(this);
   }
 
   handleNameChange(event){
@@ -43,8 +44,44 @@ class ContactUs extends Component {
     })
   }
 
-  sendEmail(e){
+  handleSuccess(response){
+    alert("Email sent successfully!")
+    this.setState({
+      email:"",
+      name:"",
+      message:"",
+      phone:"",
+    });
+  }
 
+  sendEmail(e){
+    e.preventDefault();
+    // using SendGrid's v3 Node.js Library
+    // https://github.com/sendgrid/sendgrid-nodejs
+
+    if(this.state.message === "" || this.state.name === "" || this.state.email === ""){
+      alert("One or more of the required fields are empty");
+    }
+    else{
+      var mailBody = this.state.message+"\nMy contact info is:\n"+ this.state.name + "\n" + this.state.email + "\n" + this.state.phone;
+
+      var correctedMailBody = mailBody.replace(/\n/g, "\n\n");
+      const sgMail = require('@sendgrid/mail');
+      sgMail.setApiKey('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');
+      const msg = {
+        to: 'chaitanyakhanna13@gmail.com',
+        from: 'inquiry@affineweddings.com',
+        subject: 'Wedding Inquiry From ' + this.state.name,
+        text: correctedMailBody,
+      };
+      sgMail.send(msg).then((response)=>{
+        this.handleSuccess(response);
+        console.log(response);
+      }).catch((err) => {
+        alert("Something went wrong, please try again");
+        console.log(err);
+      });
+    }
   }
   render() {
     return (
@@ -60,9 +97,9 @@ class ContactUs extends Component {
             </div>
             <div className="contactUsFormContainer mt4">
               <form>
-                <div><input type="text" placeholder="Name" value={this.state.name} onChange={this.handleNameChange}/></div>
+                <div><input type="text" placeholder="Name*" value={this.state.name} onChange={this.handleNameChange}/></div>
                 <div><input type="email" placeholder="Email*" value={this.state.email} onChange={this.handleEmailChange}/></div>
-                <div><textarea placeholder="Message" rows="5" value={this.state.message} onChange={this.handleMessageChange}/></div>
+                <div><textarea placeholder="Message*" rows="5" value={this.state.message} onChange={this.handleMessageChange}/></div>
                 <div><input type="text" placeholder="Phone Number" value={this.state.phone} onChange={this.handlePhoneChange}/></div>
                 <div className="sendInquiryButtonContainer pa4">
                   <button onClick={this.sendEmail} className="white">

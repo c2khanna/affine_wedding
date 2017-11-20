@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import './destinations.css';
-import mexicoFlag from './imgs/mexicoFlag.webp';
-import dominicanFlag from './imgs/dominicanFlag.webp';
-import jamaicaFlag from './imgs/jamaicaFlag.webp';
+import mexicoFlag from './imgs/mexicoFlag.png';
+import dominicanFlag from './imgs/dominicanFlag.png';
+import jamaicaFlag from './imgs/jamaicaFlag.png';
 import {NavLink} from 'react-router-dom';
 
 

@@ -44,28 +44,7 @@ class ContactUs extends Component {
   }
 
   sendEmail(e){
-    e.preventDefault()
-    fetch('http://192.168.0.24:3010/api/sendEmail',
-    { method: 'POST',
-      headers: { 'Accept': 'application/json', 'Content-Type': 'application/json'},
-      body: JSON.stringify({
-        email:this.state.email,
-        name:this.state.name,
-        message:this.state.message,
-        phone:this.state.phone,
-      })
-    }).then((response) => response.json())
-    .then((responseJson) => {
-      if (responseJson.success) {
-        alert('email sent')
-      }
-      else{
-        alert('failed to send email, please try again')
-      }
-    })
-    .catch((error) => {
-      console.log(error);
-    });
+
   }
   render() {
     return (
@@ -102,6 +81,7 @@ class ContactUs extends Component {
               <div className="boldContactUsText pt5 pb3">
                 Affine Weddings
               </div>
+              <div className="emailaddress pb2">planning@affineweddings.com</div>
               1833-AFF-INE0
             </div>
           </div>

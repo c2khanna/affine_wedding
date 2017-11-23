@@ -2,12 +2,13 @@
   "name": "affine_weddings",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://c2khanna.github.io/affine_wedding",
   "devDependencies": {
     "react-scripts": "1.0.17"
   },
   "dependencies": {
-    "@sendgrid/mail": "^6.1.4",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^1.1.0",
     "react": "^16.1.0",
     "react-dom": "^16.1.0",
     "react-router": "^4.2.0",
@@ -15,9 +16,12 @@
     "react-smooth-collapse": "^1.3.2",
     "tachyons": "^4.9.0",
     "typeface-josefin-sans": "0.0.43",
-    "typeface-josefin-slab": "0.0.43"
+    "typeface-josefin-slab": "0.0.43",
+    "uglify-es": "^3.1.10"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

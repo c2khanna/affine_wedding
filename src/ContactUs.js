@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import './contactUs.css';
+import sgMail from './@sendgrid/mail';
 
 class ContactUs extends Component {
   constructor(props) {
@@ -17,7 +18,7 @@ class ContactUs extends Component {
     this.handleEmailChange = this.handleEmailChange.bind(this);
     this.handleMessageChange = this.handleMessageChange.bind(this);
     this.handlePhoneChange = this.handlePhoneChange.bind(this);
-    this.handleSuccess = this.handleSuccess.bind(this);
+    this.handleSuccessEmail = this.handleSuccessEmail.bind(this);
   }
 
   handleNameChange(event){
@@ -43,43 +44,42 @@ class ContactUs extends Component {
       phone: event.target.value
     })
   }
-
-  handleSuccess(response){
-    alert("Email sent successfully!")
+  handleSuccessEmail(){
     this.setState({
-      email:"",
-      name:"",
-      message:"",
-      phone:"",
-    });
+      name: "",
+      email: "",
+      message: "",
+      phone: ""
+    })
+    alert("Email sent successfully!");
   }
 
   sendEmail(e){
     e.preventDefault();
-    // using SendGrid's v3 Node.js Library
-    // https://github.com/sendgrid/sendgrid-nodejs
-
     if(this.state.message === "" || this.state.name === "" || this.state.email === ""){
       alert("One or more of the required fields are empty");
     }
     else{
-      var mailBody = this.state.message+"\nMy contact info is:\n"+ this.state.name + "\n" + this.state.email + "\n" + this.state.phone;
+      var mailBody = this.state.message+"\n\nMy contact info is:\n"+ this.state.name + "\n" + this.state.email + "\n" + this.state.phone;
+      fetch("https://ut938u6ec1.execute-api.us-west-2.amazonaws.com/Master/contactus", {
+        method: "post",
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        },
 
-      var correctedMailBody = mailBody.replace(/\n/g, "\n\n");
-      const sgMail = require('@sendgrid/mail');
-      sgMail.setApiKey('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');
-      const msg = {
-        to: 'chaitanyakhanna13@gmail.com',
-        from: 'inquiry@affineweddings.com',
-        subject: 'Wedding Inquiry From ' + this.state.name,
-        text: correctedMailBody,
-      };
-      sgMail.send(msg).then((response)=>{
-        this.handleSuccess(response);
-        console.log(response);
-      }).catch((err) => {
+        //make sure to serialize your JSON body
+        body: JSON.stringify({
+          subject: "Wedding Inquiry from " + this.state.name,
+          body: mailBody
+        })
+      })
+      .then( (response) => {
+        this.handleSuccessEmail();
+      })
+      .catch( (error) =>{
         alert("Something went wrong, please try again");
-        console.log(err);
+        console.log(error);
       });
     }
   }

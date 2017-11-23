@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import './contactUs.css';
-import sgMail from './@sendgrid/mail';
 
 class ContactUs extends Component {
   constructor(props) {

@@ -17,10 +17,10 @@ class Footer extends Component {
             <a href="https://twitter.com/affineweddings_" target="_blank" rel="noopener noreferrer">
               <img src={TwitterLogo} alt="TwitterLogo"/>
             </a>
-            <a href="https://www.instagram.com/affineweddings/?hl=en" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/affineweddings_travelonly/?hl=en" target="_blank" rel="noopener noreferrer">
               <img src={InstaLogo} alt="InstaLogo"/>
             </a>
-            <a href="https://www.pinterest.com/affinewedings" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.pinterest.com/affineweddings/pins" target="_blank" rel="noopener noreferrer">
               <img src={pinterestLogo} alt="pinterestLogo"/>
             </a>
           </div>

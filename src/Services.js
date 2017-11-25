@@ -15,12 +15,12 @@ class Services extends Component {
       <div>
         <Header/>
         <div className="servicesContainer">
-          <div className="servicesTitle f1 b tc">
+          <div className="servicesTitle tc">
             Wedding Coordination Services
           </div>
           <div className="servicesContent">
             <div className="container1">
-              <div className="containerTitle f2">Month of Wedding Celebration</div>
+              <div className="containerTitle f2">Month of Wedding Coordination</div>
               <div className="containerBody">
                 <img src={monthOfWeddingImg} alt="Month Of Wedding Celebration"/>
                 You have planned the perfect wedding… now let us worry about
@@ -50,7 +50,7 @@ class Services extends Component {
               </div>
             </div>
             <div className="container3 f2">
-              <div className="containerTitle f2">Full Coordination Wedding Destination</div>
+              <div className="containerTitle f2">Full Destination Wedding Coordination</div>
               <div className="containerBody">
                 <img src={fullCoordinationWeddingImg} alt="Full Coordination Wedding Destination"/>
                 The ultimate personalized service, designed to fulfill all of
@@ -90,11 +90,11 @@ class Services extends Component {
                 Bachelorette trips, Stag trips and family vacations.
 
                 <div className="findOUtMoreButtonContainer">
-                  <NavLink to="/services" className="white">
-                    <div className="findOutMoreButton ttu pv3">
+                  <a href="https://mbola.travelonly.com" target="_blank" rel="noopener noreferrer">
+                    <div className="white findOutMoreButton ttu pv3">
                     Find Out More
                   </div>
-                  </NavLink>
+                </a>
                 </div>
               </div>
             </div>

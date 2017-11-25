@@ -5,10 +5,10 @@ import logo from './imgs/Affine.png'
 class Header extends Component {
   render() {
     return (
-      <div className="pb4 header f4">
+      <div className="pb4 header">
         <Navbar/>
         <div className="welcome">
-          <div className="logo mt4 mb3">
+          <div className="logo mb3">
             <img src={logo} alt="logo"/>
           </div>
           <div className="welcome-text tc ttu mh2">

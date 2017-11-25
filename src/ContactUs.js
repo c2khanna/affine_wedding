@@ -87,7 +87,7 @@ class ContactUs extends Component {
       <div>
         <Header/>
         <div className="contactUsContainer">
-          <div className="contactUsTitle f1 tc">
+          <div className="contactUsTitle f1 tc b">
             Contact Us
           </div>
           <div className="contactUsContent">

@@ -5,8 +5,17 @@
   vertical-align: middle;
 }
 
+.contactUsButton{
+  background-color: #713F7E;
+  font-family: josefinSans;
+  border-radius: 32px;
+  width: 100%;
+}
+
 .homePage .homePageButtonContainer{
   width: 15%;
+  display: block;
+  margin: auto;
 }
 
 .homePageButtonContainer a{
@@ -18,12 +27,6 @@
     width: 90%;
   }
 
-  .contactUsButton{
-    background-color: #713F7E;
-    font-family: josefinSans;
-    border-radius: 32px;
-    width: 100%;
-  }
   .homePage .homePageButtonContainer{
     width: 100%;
     display: block;
@@ -37,12 +40,6 @@
     width: 80%;
   }
 
-  .contactUsButton{
-    background-color: #713F7E;
-    font-family: josefinSans;
-    border-radius: 32px;
-    width: 100%;
-  }
   .homePage .homePageButtonContainer{
     width: 40%;
     display: block;
@@ -51,16 +48,9 @@
 
 }
 
-@media only screen and (min-width: 1023px) {
+@media only screen and (min-width: 1023px) and (max-width: 1400px) {
   .welcomeImg img{
     width: 67.5%;
-  }
-
-  .contactUsButton{
-    background-color: #713F7E;
-    font-family: josefinSans;
-    border-radius: 32px;
-    width: 100%;
   }
 
   .homePage .homePageButtonContainer{

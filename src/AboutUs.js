@@ -11,7 +11,7 @@ class AboutUs extends Component {
         <Header/>
         <div className="aboutUsContainer">
           <div className="leftContainer">
-            <div className="aboutUsTitle f1 b">
+            <div className="aboutUsTitle">
               About Us
             </div>
             <div className="aboutUsText">

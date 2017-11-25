@@ -16,15 +16,25 @@
   position: absolute;
   width: 100%;
   top: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
-.navBarLink{
+
+.navBarMenu .navBarLink{
   width: 100%;
   height: 100%;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
 }
 .navBarMenuMobileList li{
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
+.navBarMenuMobileList li a{
+  font-size: 1.25rem;
+}
+
 .navBarMenuMobileList ul{
   list-style-type: none;
   margin: 0;
@@ -34,6 +44,11 @@
 .navBarMenuMobileList{
   transform: translateY(0);
   transition: all 1s ease;
+}
+
+.navBarMenuMobile .navBarLink{
+  width: 100%;
+  height: 100%;
 }
 
 .hidden ul{
@@ -46,6 +61,11 @@
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
+.hidden li a{
+  font-size: 1.25rem;
+}
+
 .hidden{
   transform: translateY(-100%);
   transition: all 1s ease;
@@ -70,6 +90,7 @@
   text-align: center;
   padding: 0px 15px;
   text-decoration: none;
+  font-size: 1.15rem;
 }
 
 .navbar .outer{
@@ -100,7 +121,6 @@
 }
 
 .welcome{
-  margin-top: 54px;
   color: #999999;
 }
 

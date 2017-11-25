@@ -26,6 +26,14 @@
   .navBarMenu{
     display: none;
   }
+
+  .welcome-text{
+    font-size: 1.05rem;
+  }
+
+  .welcome{
+    margin-top: 54px;
+  }
 }
 
 @media only screen and (min-width: 401px) and (max-width: 1022px) {
@@ -41,12 +49,20 @@
   .navBarMenu{
     display: none;
   }
+
+  .welcome-text{
+    font-size: 1.15rem;
+  }
+
+  .welcome{
+    margin-top: 54px;
+  }
 }
 
 @media only screen and (min-width: 1023px) {
 	.logo img{
-		height: 160px;
-		width: 200px;
+		height: 152px;
+		width: 190apx;
 	}
 
   .navBarMenuMobile{
@@ -55,6 +71,14 @@
 
   .navBarMenu{
     display: block;
+  }
+
+  .welcome-text{
+    font-size: 1.25rem;
+  }
+
+  .welcome{
+    margin-top: 10px;
   }
 }
 

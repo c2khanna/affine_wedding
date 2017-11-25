@@ -5,7 +5,6 @@ import './destinations.css';
 import mexicoFlag from './imgs/mexicoFlag.png';
 import dominicanFlag from './imgs/dominicanFlag.png';
 import jamaicaFlag from './imgs/jamaicaFlag.png';
-import {NavLink} from 'react-router-dom';
 
 
 class Destinations extends Component {
@@ -14,14 +13,14 @@ class Destinations extends Component {
       <div>
         <Header/>
         <div className="destinationsContainer">
-          <div className="requirementsContainer white pv5">
+          <div className="requirementsContainer white pb5">
             <div className="requirement mexico">
               <div className="mexicoRequirementContent">
                 <div className="requirementCountryName ttu pb4">Mexico</div>
 
-                <div className="requirementBody">Language: Spanish<br/>
+                <div className="requirementBody"><b>Language:</b> Spanish<br/>
                   <a href="www.visitmexico.com">www.visitmexico.com</a><br/>
-                  <div className="requirementsSubtitle pt3">Wedding Requirements</div>
+                  <div className="requirementsSubtitle pt3"><b>Wedding Requirements</b></div>
                   <ul>
                     <li>In Mexico, only civil wedding ceremonies are legal; these
                       are officiated by a Justice of the Peace.</li>
@@ -164,11 +163,11 @@ class Destinations extends Component {
               To Book Destination Weddings
             </div>
             <div className="bookingContactUsButtonContainer pa4">
-              <NavLink to="/contactUs" className="white">
-                <div className="bookingContactUsButton tc ttu pv3">
+              <a href="https://mbola.travelonly.com" target="_blank" rel="noopener noreferrer">
+                <div className="white bookingContactUsButton tc ttu pv3">
                 Click Here
               </div>
-              </NavLink>
+            </a>
             </div>
           </div>
         </div>

@@ -22,27 +22,27 @@ class Navbar extends Component {
           <ul className="navBarMenuList">
             <li>
               <NavLink exact to="/" className="white" activeClassName="activeLink">
-                <div className="navBarLink pt4 pb4">Home</div>
+                <div className="navBarLink">Home</div>
               </NavLink>
             </li>
             <li>
               <NavLink to="/aboutUs" className="white" activeClassName="activeLink">
-                <div className="navBarLink pt4 pb4">About Us</div>
+                <div className="navBarLink">About Us</div>
               </NavLink>
             </li>
             <li>
               <NavLink to="/services" className="white" activeClassName="activeLink">
-                <div className="navBarLink pt4 pb4">Services</div>
+                <div className="navBarLink">Services</div>
               </NavLink>
             </li>
             <li>
               <NavLink to="/destinations" className="white" activeClassName="activeLink">
-                <div className="navBarLink pt4 pb4">Destinations</div>
+                <div className="navBarLink">Destinations</div>
               </NavLink>
             </li>
             <li>
               <NavLink to="/contactUs" className="white" activeClassName="activeLink">
-                <div className="navBarLink pt4 pb4">Contact Us</div>
+                <div className="navBarLink">Contact Us</div>
               </NavLink>
             </li>
           </ul>

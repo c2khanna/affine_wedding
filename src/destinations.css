@@ -17,7 +17,7 @@
   flex-basis: 27%;
   font-size: 1.5rem;
   line-height: 2rem;
-  padding: 3%;
+  padding: 1.5%;
 }
 
 .mexico {
@@ -68,6 +68,11 @@
   transform: translateY(-50%);
 }
 
+.requirementBody{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .requirementBody a{
   text-decoration: none;;
   color: #fff;
@@ -83,9 +88,9 @@
 }
 
 .requirementCountryName {
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: boldSans;
-  line-height: 4rem;
+  line-height: 3rem;
 }
 
 .requirementsSubtitle{
@@ -113,7 +118,7 @@
 
 .locationHeading{
   padding-bottom: 3%;
-  font-size: 2rem;
+  font-size: 2.25rem;
   color: black;
   font-family: boldSans;
 }
@@ -122,13 +127,16 @@
   padding: 3%;
   padding-left: 10%;
   padding-right: 10%;
-  font-family: boldSans;
+  font-family: josefinSans;
   font-size: 1.5rem;
+  letter-spacing: 1px;
+  line-height: 2rem;
 }
 
 .listOfCities{
   padding-left: 10%;
   line-height: 2rem;
+  font-size: 1.5rem;
   text-align: left;
 }
 
@@ -159,29 +167,32 @@
 
 .bookingTextContainer{
   font-family: myFont;
-  font-size: 3.5rem;
+  font-size: 3rem;
   width: 50%;
   display: block;
   margin: auto;
 }
 
 .bookingContactUsButtonContainer {
-  width: 50%;
+  width: 27%;
   display: block;
   margin: auto;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
 }
 
 .bookingContactUsButton{
   background-color: #713F7E;
   font-family: josefinSans;
   border-radius: 32px;
-  width: 50%;
+  width: 100%;
   display: block;
   margin: auto;
 }
 
 /*1 column for mobile*/
-@media only screen and (min-width: 320px) and (max-width: 799px) {
+@media only screen and (min-width: 320px) and (max-width: 600px) {
   .requirement {
     width: 100%;
     flex-basis: 100%;
@@ -201,13 +212,19 @@
   }
 
   .requirementCountryName {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-family: boldSans;
-    line-height: 2.5rem;
+    line-height: 1.5rem;
+  }
+
+  .listOfCities {
+    line-height: 1.3rem;
+    font-size: 1rem;
   }
 
   .requirementBody{
-    font-size: 1.25rem;
+    font-size: 1rem;
+    line-height: 1.3rem;
   }
 
   .mexicoRequirementContent{
@@ -234,7 +251,8 @@
   }
 
   .citiesIncountries{
-    font-size: 1.25rem;
+    font-size: 1rem;
+    line-height: 1.3rem;
     padding: 2%;
   }
 
@@ -244,7 +262,7 @@
 
   .bookingTextContainer{
     font-family: myFont;
-    font-size: 2rem;
+    font-size: 1.75rem;
     width: 100%;
     display: block;
     margin: auto;
@@ -267,12 +285,11 @@
   }
 
   .bookingContactUsButtonContainer {
-    width: 90%;
+    width: 100%;
     display: block;
     margin: auto;
-    padding: 0;
-    padding-top: 8%;
-    padding-bottom: 8%;
+    font-size: 1rem;
+    line-height: 1.3rem;
   }
 
   .bookingContactUsButton{
@@ -282,13 +299,11 @@
     width: 100%;
     display: block;
     margin: auto;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
   }
 }
 
-/*adjust for flag size and font sizes*/
-@media only screen and (min-width: 800px) and (max-width: 1099px) {
+/*adjust for flag size and font sizes for tablet*/
+@media only screen and (min-width: 601px) and (max-width: 1022px) {
   .requirement {
     width: 100%;
     flex-basis: 100%;
@@ -308,13 +323,15 @@
   }
 
   .requirementCountryName {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-family: boldSans;
-    line-height: 2.5rem;
+    line-height: 1.5rem;
   }
 
   .requirementBody{
     font-size: 1.25rem;
+    letter-spacing: 1px;
+    line-height: 2rem;
   }
 
   .mexicoRequirementContent{
@@ -342,7 +359,13 @@
 
   .citiesIncountries{
     font-size: 1.25rem;
+    line-height: 2rem;
     padding: 2%;
+  }
+
+  .listOfCities{
+    font-size: 1.25rem;
+    line-height: 2rem;
   }
 
   .location img{
@@ -351,7 +374,7 @@
 
   .bookingTextContainer{
     font-family: myFont;
-    font-size: 2.5rem;
+    font-size: 2rem;
     width: 100%;
     display: block;
     margin: auto;
@@ -374,12 +397,11 @@
   }
 
   .bookingContactUsButtonContainer {
-    width: 60%;
+    width: 45%;
     display: block;
     margin: auto;
-    padding: 0;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    font-size: 1.25rem;
+    line-height: 2rem;
   }
 
   .bookingContactUsButton{
@@ -389,13 +411,11 @@
     width: 100%;
     display: block;
     margin: auto;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
   }
 }
 
 /*switch over to 3 columns*/
-@media only screen and (min-width: 1100px) and (max-width: 1499px) {
+@media only screen and (min-width: 1023px) and (max-width: 2200px) {
 
   .weddingRequirementsTitle{
     font-size: 1.25rem;
@@ -403,13 +423,14 @@
   }
 
   .requirementCountryName {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-family: boldSans;
-    line-height: 2.5rem;
+    line-height: 1.5rem;
   }
 
   .requirementBody{
     font-size: 1.25rem;
+    line-height: 1.65rem;
   }
 
   .mexicoRequirementContent{
@@ -432,12 +453,19 @@
 
   .locationHeading{
     font-size: 1.5rem;
+    line-height: 1.5rem;
     padding-top: 5%;
   }
 
   .citiesIncountries{
     font-size: 1.25rem;
+    line-height: 1.65rem;
     padding: 2%;
+  }
+
+  .listOfCities{
+    font-size: 1.25rem;
+    line-height: 1.65rem;
   }
 
   .location img{
@@ -459,111 +487,25 @@
 
   .bookingTextContainer{
     font-family: myFont;
-    font-size: 3.5rem;
-    width: 50%;
-    display: block;
-    margin: auto;
-  }
-
-  .bookingContactUsButtonContainer {
-    width: 100%;
-    display: block;
-    margin: auto;
-  }
-
-  .bookingContactUsButton{
-    background-color: #713F7E;
-    font-family: josefinSans;
-    border-radius: 32px;
-    width: 70%;
-    display: block;
-    margin: auto;
-  }
-
-}
-
-/*make country name smaller so dominican fits*/
-@media only screen and (min-width: 1500px) and (max-width: 1900px) {
-
-  .weddingRequirementsTitle{
-    font-size: 1.25rem;
-    font-family: boldSans;
-  }
-
-  .requirementCountryName {
     font-size: 2.5rem;
-    font-family: boldSans;
-    line-height: 2.5rem;
-  }
-
-  .requirementBody{
-    font-size: 1.25rem;
-  }
-
-  .mexicoRequirementContent{
-    padding-bottom: 10%;
-    padding-top: 5%;
-    font-size: 1.25rem;
-  }
-
-  .dominicanRequirementContent{
-    padding-bottom: 10%;
-    padding-top: 5%;
-    font-size: 1.25rem;
-  }
-
-  .jamaicaRequirementContent{
-    padding-bottom: 10%;
-    padding-top: 5%;
-    font-size: 1.25rem;
-  }
-
-  .locationHeading{
-    font-size: 1.5rem;
-    padding-top: 5%;
-  }
-
-  .citiesIncountries{
-    font-size: 1.25rem;
-    padding: 2%;
-  }
-
-  .location img{
-    width: 50%;
-  }
-
-  .bookingContainer{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./imgs/destinationsFooters.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: auto;
-    padding-left: 25%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-right: 25%;
-    display: flex;
-  }
-
-  .bookingTextContainer{
-    font-family: myFont;
-    font-size: 3.5rem;
     width: 50%;
     display: block;
     margin: auto;
   }
 
   .bookingContactUsButtonContainer {
-    width: 100%;
+    width: 60%;
     display: block;
     margin: auto;
+    font-size: 1.25rem;
+    line-height: 1.65rem;
   }
 
   .bookingContactUsButton{
     background-color: #713F7E;
     font-family: josefinSans;
     border-radius: 32px;
-    width: 70%;
+    width: 100%;
     display: block;
     margin: auto;
   }

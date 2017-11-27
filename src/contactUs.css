@@ -5,9 +5,10 @@
 
 .contactUsTitle{
   color: #713F7E;
-  padding-top: 5%;
   padding-bottom: 2%;
   width: 100%;
+  font-size: 3rem;
+  font-weight: 700;
 }
 
 .contactUsTitle::after,
@@ -21,14 +22,16 @@
 }
 
 .belowContactUsForm{
-  font-size: 1.3rem;
-  font-family: boldSans;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: 1px;
+  font-family: josefinSans;
   color: #727272;
 }
 .boldContactUsText {
   font-family: boldSans;
   color: black;
-  font-size: 1.75rem;
+  font-size: 2.25rem;
   text-align: center;
 }
 
@@ -45,6 +48,9 @@
   width: 35%;
   display: block;
   margin: auto;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: 1px;
 }
 
 .sendInquiryButtonContainer button{
@@ -57,7 +63,7 @@
   margin: auto;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 800px) {
+@media only screen and (min-width: 320px) and (max-width: 600px) {
   .contactUsContent{
     padding-left: 5%;
     padding-right: 5%;
@@ -65,10 +71,9 @@
 
   .contactUsTitle{
     color: #713F7E;
-    padding-top: 5%;
     padding-bottom: 2%;
     width: 100%;
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 
   .contactUsTitle::after,
@@ -83,7 +88,9 @@
 
   .belowContactUsForm{
     font-size: 1rem;
-    font-family: boldSans;
+    line-height: 1.3rem;
+    letter-spacing: 1px;
+    font-family: josefinSans;
     color: #727272;
   }
   .boldContactUsText {
@@ -95,10 +102,23 @@
 
   .sendInquiryButtonContainer{
     width: 100%;
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+
+  .sendInquiryButtonContainer button{
+    line-height: 1.3rem;
+    letter-spacing: 1px;
   }
 }
 
-@media only screen and (min-width: 801px) and (max-width: 1500px) {
+@media only screen and (min-width: 500px) and (max-width: 1022px) {
+  .contactUsTitle{
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1022px) {
   .contactUsContent{
     padding-left: 5%;
     padding-right: 5%;
@@ -106,7 +126,6 @@
 
   .contactUsTitle{
     color: #713F7E;
-    padding-top: 5%;
     padding-bottom: 2%;
     width: 100%;
     font-size: 2rem;
@@ -123,8 +142,10 @@
   }
 
   .belowContactUsForm{
-    font-size: 1rem;
-    font-family: boldSans;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    font-family: josefinSans;
     color: #727272;
   }
   .boldContactUsText {
@@ -135,6 +156,49 @@
   }
 
   .sendInquiryButtonContainer{
-    width: 50%;
+    width: 47%;
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+
+  .sendInquiryButtonContainer button{
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1023px) and (max-width: 2200px) {
+  .contactUsTitle{
+    font-size: 2.5rem;
+  }
+
+  .contactUsTitle::after,
+  .contactUsTitle::before{
+    transform: translateY(-0.75rem);
+  }
+
+  .sendInquiryButtonContainer{
+    width: 70%;
+    font-size: 1.25rem;
+    line-height: 1.65rem;
+  }
+
+  .sendInquiryButtonContainer button{
+    font-size: 1.25rem;
+    line-height: 1.65rem;
+  }
+
+  .belowContactUsForm{
+    font-size: 1.25rem;
+    line-height: 1.65rem;
+    letter-spacing: 1px;
+    font-family: josefinSans;
+    color: #727272;
+  }
+  .boldContactUsText {
+    font-family: boldSans;
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
   }
 }

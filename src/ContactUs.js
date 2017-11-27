@@ -87,7 +87,7 @@ class ContactUs extends Component {
       <div>
         <Header/>
         <div className="contactUsContainer">
-          <div className="contactUsTitle f1 tc b">
+          <div className="contactUsTitle tc">
             Contact Us
           </div>
           <div className="contactUsContent">
@@ -119,6 +119,7 @@ class ContactUs extends Component {
               </div>
               <div className="emailaddress pb2">planning@affineweddings.com</div>
               1833-AFF-INE0
+              <div className="pt4">Surrey, British Columbia, Canada</div>
             </div>
           </div>
         </div>

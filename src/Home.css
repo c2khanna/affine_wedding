@@ -3,6 +3,8 @@
   display: block;
   text-align: center;
   vertical-align: middle;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .contactUsButton{
@@ -10,6 +12,9 @@
   font-family: josefinSans;
   border-radius: 32px;
   width: 100%;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: 1px;
 }
 
 .homePage .homePageButtonContainer{
@@ -23,6 +28,10 @@
 }
 
 @media only screen and (min-width: 320px) and (max-width: 500px) {
+  .contactUsButton{
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
   .welcomeImg img{
     width: 90%;
   }
@@ -36,25 +45,31 @@
 }
 
 @media only screen and (min-width: 501px) and (max-width: 1022px) {
+  .contactUsButton{
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+
   .welcomeImg img{
     width: 80%;
   }
 
   .homePage .homePageButtonContainer{
-    width: 40%;
+    width: 45%;
     display: block;
     margin: auto;
   }
 
 }
 
-@media only screen and (min-width: 1023px) and (max-width: 1400px) {
-  .welcomeImg img{
-    width: 67.5%;
+@media only screen and (min-width: 1023px) and (max-width: 2200px) {
+  .contactUsButton{
+    font-size: 1.25rem;
+    line-height: 1.65rem;
   }
 
   .homePage .homePageButtonContainer{
-    width: 25%;
+    width: 30%;
     display: block;
     margin: auto;
   }

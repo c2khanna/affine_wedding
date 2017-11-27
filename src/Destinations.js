@@ -16,7 +16,7 @@ class Destinations extends Component {
           <div className="requirementsContainer white pb5">
             <div className="requirement mexico">
               <div className="mexicoRequirementContent">
-                <div className="requirementCountryName ttu pb4">Mexico</div>
+                <div className="requirementCountryName ttu pb3">Mexico</div>
 
                 <div className="requirementBody"><b>Language:</b> Spanish<br/>
                   <a href="www.visitmexico.com">www.visitmexico.com</a><br/>
@@ -63,8 +63,9 @@ class Destinations extends Component {
             <div className="requirement dominicanRepublic">
               <div className="dominicanRequirementContent">
                 <div className="requirementCountryName ttu pb4">Dominican Republic</div>
-                Residency Period: None<br/> Waiting Period: None
-                <div className="requirementBody"><b>Language:</b> Dominican<br/>
+                <div className="requirementBody">
+                  Residency Period: None<br/>Waiting Period: None<br/>
+                  <b>Language:</b> Dominican<br/>
                   <a href="www.dominicanrepublic.com">www.dominicanrepublic.com</a><br/>
                   <div className="requirementsSubtitle pt3"><b>Wedding Requirements</b></div>
                   <br/>
@@ -94,8 +95,9 @@ class Destinations extends Component {
             <div className="requirement jamaica">
               <div className="jamaicaRequirementContent">
                 <div className="requirementCountryName ttu pb4">Jamaica</div>
-                Residency Period: 24 hours <br/>
-                <div className="requirementBody"><b>Language:</b> English<br/>
+                <div className="requirementBody">
+                  Residency Period: 24 hours <br/>
+                  <b>Language:</b> English<br/>
                   <a href="www.visitjamaica.com">www.visitjamaica.com</a><br/>
                   Residency Period: You can marry after just 24 hours on the
                   island if you’ve applied for your license and supplied all the

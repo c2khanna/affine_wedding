@@ -20,7 +20,7 @@ class Services extends Component {
           </div>
           <div className="servicesContent">
             <div className="container1">
-              <div className="containerTitle f2">Month of Wedding Coordination</div>
+              <div className="containerTitle">Month of Wedding Coordination</div>
               <div className="containerBody">
                 <img src={monthOfWeddingImg} alt="Month Of Wedding Celebration"/>
                 You have planned the perfect wedding… now let us worry about
@@ -35,8 +35,8 @@ class Services extends Component {
                 your family & friends.
               </div>
             </div>
-            <div className="container2 f2">
-              <div className="containerTitle f2">Wedding Coordination</div>
+            <div className="container2">
+              <div className="containerTitle">Wedding Coordination</div>
               <div className="containerBody">
                 <img src={weddingCoordinationImg} alt="Wedding Coordination"/>
                 This service is geared to couples who desire guidance in all
@@ -49,8 +49,8 @@ class Services extends Component {
                 the highest of standards… your own!
               </div>
             </div>
-            <div className="container3 f2">
-              <div className="containerTitle f2">Full Destination Wedding Coordination</div>
+            <div className="container3">
+              <div className="containerTitle">Full Destination Wedding Coordination</div>
               <div className="containerBody">
                 <img src={fullCoordinationWeddingImg} alt="Full Coordination Wedding Destination"/>
                 The ultimate personalized service, designed to fulfill all of
@@ -64,8 +64,8 @@ class Services extends Component {
                 friends.
               </div>
             </div>
-            <div className="container4 f2">
-              <div className="containerTitle f2">Destination Wedding Planning</div>
+            <div className="container4">
+              <div className="containerTitle">Destination Wedding Planning</div>
               <div className="containerBody">
                 <img src={destinationWeddingImg} alt="Destination Wedding Planning"/>
                 For couples who desire guidance in all aspects of planning
@@ -79,8 +79,8 @@ class Services extends Component {
                 present onsite at the resort for your pre-wedding meeting.
               </div>
             </div>
-            <div className="container5 f2">
-              <div className="containerTitle f2">Travel Assistance</div>
+            <div className="container5">
+              <div className="containerTitle">Travel Assistance</div>
               <div className="containerBody">
                 <img src={travelAssistanceImg} alt="Travel Assistance"/>
                 Affine Weddings is  a one stop shop where we provide our

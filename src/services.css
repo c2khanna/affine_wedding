@@ -78,6 +78,7 @@
 .containerTitle{
   color: #000;
   font-family: boldSans;
+  font-size: 2.25rem;
 }
 
 .containerBody{
@@ -97,8 +98,7 @@
 }
 
 .findOUtMoreButtonContainer{
-  line-height: 1.15rem;
-  width: 100%;
+  width: 62%;
   display: block;
   margin: auto;
   padding-top: 10%;
@@ -115,9 +115,13 @@
 
 .servicesFooter{
   height: 15%;
-  font-family: boldSans;
+  font-family: josefinSans;
   color: #727272;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding-left: 5%;
+  padding-right: 5%;
+  letter-spacing: 1px;
 }
 
 .footerButtonContainer {
@@ -138,6 +142,7 @@
 @media only screen and (min-width: 320px) and (max-width: 399px) {
   .servicesFooter{
     font-size: 1rem;
+    line-height: 1.3rem;
   }
 
   .containerTitle{
@@ -198,7 +203,7 @@
     color: #713F7E;
     padding-bottom: 5%;
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     display: flex;
   }
 
@@ -227,6 +232,7 @@
 @media only screen and (min-width: 400px) and (max-width: 600px) {
   .servicesFooter{
     font-size: 1rem;
+    line-height: 1.3rem;
   }
 
   .containerTitle{
@@ -235,8 +241,9 @@
 
   .containerBody{
     font-size: 1rem;
-    line-height: 1.5rem;
+    line-height: 1.3rem;
   }
+
   .container1{
     flex-basis: 100%;
     width: 100%;
@@ -282,11 +289,6 @@
     padding-bottom: 5%;
   }
 
-  .containerBody{
-    font-size: 1rem;
-    line-height: 1.3rem;
-  }
-
   .servicesTitle{
     color: #713F7E;
     padding-bottom: 5%;
@@ -309,7 +311,7 @@
 /*just for the button*/
 @media only screen and (min-width: 501px) and (max-width: 1022px) {
   .footerButtonContainer{
-    width: 40%;
+    width: 45%;
   }
 
   .findOUtMoreButtonContainer{
@@ -319,11 +321,15 @@
 
 @media only screen and (min-width: 601px) and (max-width: 1022px) {
   .servicesFooter{
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
 
   .containerTitle{
     font-size: 1.5rem;
+  }
+
+  .containerBody{
+    font-size: 1.25rem;
   }
 
   .container1{
@@ -395,9 +401,9 @@
 }
 
 /*just for the button*/
-@media only screen and (min-width: 1023px) and (max-width: 1400px) {
+@media only screen and (min-width: 1023px) and (max-width: 2200px) {
   .footerButtonContainer {
-    width: 25%;
+    width: 30%;
   }
 }
 
@@ -431,6 +437,11 @@
   }
 
   .containerBody{
+    font-size: 1.25rem;
+    line-height: 1.65rem;
+  }
+
+  .servicesFooter{
     font-size: 1.25rem;
     line-height: 1.65rem;
   }

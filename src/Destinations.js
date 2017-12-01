@@ -16,11 +16,11 @@ class Destinations extends Component {
           <div className="requirementsContainer white pb5">
             <div className="requirement mexico">
               <div className="mexicoRequirementContent">
-                <div className="requirementCountryName ttu pb3">Mexico</div>
+                <h1><div className="requirementCountryName ttu pb3">Mexico</div></h1>
 
-                <div className="requirementBody"><b>Language:</b> Spanish<br/>
+                <h2><div className="requirementBody"><b>Language:</b> Spanish<br/>
                   <a href="www.visitmexico.com">www.visitmexico.com</a><br/>
-                  <div className="requirementsSubtitle pt3"><b>Wedding Requirements</b></div>
+                  <h3><div className="requirementsSubtitle pt3"><b>Wedding Requirements</b></div></h3>
                   <ul>
                     <li>In Mexico, only civil wedding ceremonies are legal; these
                       are officiated by a Justice of the Peace.</li>
@@ -57,17 +57,17 @@ class Destinations extends Component {
                       regulations may vary from state to state.
                     </li>
                   </ul>
-                </div>
+                </div></h2>
               </div>
             </div>
             <div className="requirement dominicanRepublic">
               <div className="dominicanRequirementContent">
-                <div className="requirementCountryName ttu pb4">Dominican Republic</div>
-                <div className="requirementBody">
+                <h1><div className="requirementCountryName ttu pb4">Dominican Republic</div></h1>
+                <h2><div className="requirementBody">
                   Residency Period: None<br/>Waiting Period: None<br/>
                   <b>Language:</b> Dominican<br/>
                   <a href="www.dominicanrepublic.com">www.dominicanrepublic.com</a><br/>
-                  <div className="requirementsSubtitle pt3"><b>Wedding Requirements</b></div>
+                  <h3><div className="requirementsSubtitle pt3"><b>Wedding Requirements</b></div></h3>
                   <br/>
                   Weddings in the Dominican Republic are easy to arrange, thanks
                   to local laws. Most larger hotels and resorts have on-site
@@ -89,20 +89,20 @@ class Destinations extends Component {
                       (One per person).</li>
                     <li>Divorce Act (if married before) (translated in Spanish).</li>
                   </ul>
-                </div>
+                </div></h2>
               </div>
             </div>
             <div className="requirement jamaica">
               <div className="jamaicaRequirementContent">
-                <div className="requirementCountryName ttu pb4">Jamaica</div>
-                <div className="requirementBody">
+                <h1><div className="requirementCountryName ttu pb4">Jamaica</div></h1>
+                <h2><div className="requirementBody">
                   Residency Period: 24 hours <br/>
                   <b>Language:</b> English<br/>
                   <a href="www.visitjamaica.com">www.visitjamaica.com</a><br/>
                   Residency Period: You can marry after just 24 hours on the
                   island if you’ve applied for your license and supplied all the
                   necessary forms<br/>
-                  <div className="requirementsSubtitle pt3"><b>Wedding Requirements</b></div>
+                  <h3><div className="requirementsSubtitle pt3"><b>Wedding Requirements</b></div></h3>
                   <ul>
                     <li>Proof of citizenship (either a passport or a certified
                       copy of the birth certificates signed by a notary public)</li>
@@ -112,58 +112,58 @@ class Destinations extends Component {
                     <li>Copy of death certificate if a previous marriage
                       ended in death.</li>
                   </ul>
-                </div>
+                </div></h2>
               </div>
             </div>
           </div>
           <div className="locationsContainer bg-light-gray">
             <div className="location mexicoFlag">
-              <div className="locationHeading">
+              <h2><div className="locationHeading">
                 Mexico
-              </div>
+              </div></h2>
               <img src={mexicoFlag} alt="mexicoFlag"/>
-              <div className="citiesIncountries">
+              <h3><div className="citiesIncountries">
                 Mexico Destination Weddings Locations
                 <ul className="listOfCities">
                   <li>Cancun</li>
                   <li>Puerto Vallarta</li>
                   <li>Los Cabos</li>
                 </ul>
-              </div>
+              </div></h3>
             </div>
             <div className="location dominicanRepublicFlag">
-              <div className="locationHeading">
+              <h2><div className="locationHeading">
                 Dominican Republic
-              </div>
+              </div></h2>
               <img src={dominicanFlag} alt="dominicanFlag"/>
-              <div className="citiesIncountries">
+              <h3><div className="citiesIncountries">
                 Dominican Republic Destination Weddings Locations
                 <ul className="listOfCities">
                   <li>Punta Cana</li>
                   <li>Puerto Plata</li>
                   <li>Palma Real</li>
                 </ul>
-              </div>
+              </div></h3>
             </div>
             <div className="location jamaicaFlag">
-              <div className="locationHeading">
+              <h2><div className="locationHeading">
                 Jamaica
-              </div>
+              </div></h2>
               <img src={jamaicaFlag} alt="jamaicaFlag"/>
-              <div className="citiesIncountries">
+              <h3><div className="citiesIncountries">
                 Jamaica Destination Weddings Locations
                 <ul className="listOfCities">
                   <li>Montego Bay</li>
                   <li>Negril</li>
                   <li>Ocho Rios</li>
                 </ul>
-              </div>
+              </div></h3>
             </div>
           </div>
           <div className="bookingContainer white">
-            <div className="bookingTextContainer">
+            <h1><div className="bookingTextContainer">
               To Book Destination Weddings
-            </div>
+            </div></h1>
             <div className="bookingContactUsButtonContainer pa4">
               <a href="https://mbola.travelonly.com" target="_blank" rel="noopener noreferrer">
                 <div className="white bookingContactUsButton tc ttu pv3">

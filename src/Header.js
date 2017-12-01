@@ -9,11 +9,13 @@ class Header extends Component {
         <Navbar/>
         <div className="welcome">
           <div className="logo mb3">
-            <img src={logo} alt="logo"/>
+            <h1><img src={logo} alt="affine weddings logo"/></h1>
           </div>
-          <div className="welcome-text tc ttu mh2">
-            Welcome to Affine Weddings
-          </div>
+          <h1>
+            <div className="welcome-text tc ttu mh2">
+              Welcome to Affine Weddings
+            </div>
+          </h1>
         </div>
       </div>
 

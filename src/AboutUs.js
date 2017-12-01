@@ -11,10 +11,10 @@ class AboutUs extends Component {
         <Header/>
         <div className="aboutUsContainer">
           <div className="leftContainer">
-            <div className="aboutUsTitle">
+            <h1><div className="aboutUsTitle">
               About Us
-            </div>
-            <div className="aboutUsText">
+            </div></h1>
+            <h3><div className="aboutUsText">
               <p>
                 My name is Manprit Bola and I am the owner and
                 lead wedding coordinator for Affine Weddings based
@@ -59,7 +59,7 @@ class AboutUs extends Component {
               <p className="pb3">
                 Let the planning begin!!!
               </p>
-            </div>
+            </div></h3>
           </div>
           <div className="rightContainer">
             <div className="cakeImageContainer pb2 tc">

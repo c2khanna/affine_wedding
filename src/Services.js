@@ -15,13 +15,13 @@ class Services extends Component {
       <div>
         <Header/>
         <div className="servicesContainer">
-          <div className="servicesTitle tc">
+          <h1><div className="servicesTitle tc">
             Wedding Coordination Services
-          </div>
+          </div></h1>
           <div className="servicesContent">
             <div className="container1">
-              <div className="containerTitle">Month of Wedding Coordination</div>
-              <div className="containerBody">
+              <h2><div className="containerTitle">Month of Wedding Coordination</div></h2>
+              <h3><div className="containerBody">
                 <img src={monthOfWeddingImg} alt="Month Of Wedding Celebration"/>
                 You have planned the perfect wedding… now let us worry about
                 the details! This service is designed for couples who have
@@ -33,11 +33,11 @@ class Services extends Component {
                 and vendor no-shows. Affine Weddings will take over your day
                 of wedding coordination so that you can truly enjoy it with
                 your family & friends.
-              </div>
+              </div></h3>
             </div>
             <div className="container2">
-              <div className="containerTitle">Wedding Coordination</div>
-              <div className="containerBody">
+              <h2><div className="containerTitle">Wedding Coordination</div></h2>
+              <h3><div className="containerBody">
                 <img src={weddingCoordinationImg} alt="Wedding Coordination"/>
                 This service is geared to couples who desire guidance in all
                 aspects of planning the entire wedding. Your wedding should
@@ -47,11 +47,11 @@ class Services extends Component {
                 planning process and on your wedding day, you can relax and
                 feel assured that Affine Weddings is directing every detail to
                 the highest of standards… your own!
-              </div>
+              </div></h3>
             </div>
             <div className="container3">
-              <div className="containerTitle">Full Destination Wedding Coordination</div>
-              <div className="containerBody">
+              <h2><div className="containerTitle">Full Destination Wedding Coordination</div></h2>
+              <h3><div className="containerBody">
                 <img src={fullCoordinationWeddingImg} alt="Full Coordination Wedding Destination"/>
                 The ultimate personalized service, designed to fulfill all of
                 your destination wedding planning needs and includes onsite
@@ -62,11 +62,11 @@ class Services extends Component {
                 comfort in knowing that a dedicated wedding planner and travel
                 expert is working personally with you, your family and your
                 friends.
-              </div>
+              </div></h3>
             </div>
             <div className="container4">
-              <div className="containerTitle">Destination Wedding Planning</div>
-              <div className="containerBody">
+              <h2><div className="containerTitle">Destination Wedding Planning</div></h2>
+              <h3><div className="containerBody">
                 <img src={destinationWeddingImg} alt="Destination Wedding Planning"/>
                 For couples who desire guidance in all aspects of planning
                 their entire wedding with the exception of having a wedding
@@ -77,11 +77,11 @@ class Services extends Component {
                 with the onsite coordinator and provide you with complete
                 correspondence, finalized itineraries and all information to
                 present onsite at the resort for your pre-wedding meeting.
-              </div>
+              </div></h3>
             </div>
             <div className="container5">
-              <div className="containerTitle">Travel Assistance</div>
-              <div className="containerBody">
+              <h2><div className="containerTitle">Travel Assistance</div></h2>
+              <h3><div className="containerBody">
                 <img src={travelAssistanceImg} alt="Travel Assistance"/>
                 Affine Weddings is  a one stop shop where we provide our
                 clients with wedding coordination, day of wedding coordination
@@ -96,7 +96,7 @@ class Services extends Component {
                   </div>
                 </a>
                 </div>
-              </div>
+              </div></h3>
             </div>
           </div>
         </div>

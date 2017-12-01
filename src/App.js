@@ -13,7 +13,7 @@ class App extends Component {
         <Header/>
         <div className="homePage">
           <div className="welcomeImg">
-            <img src={WelcomeImg} alt="welcome_pic"/>
+            <h1><img src={WelcomeImg} alt="wedding planner pic"/></h1>
           </div>
           <div className="homePageButtonContainer pa4">
             <NavLink to="/contactUs" className="white">

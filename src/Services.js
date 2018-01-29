@@ -90,7 +90,7 @@ class Services extends Component {
                 Bachelorette trips, Stag trips and family vacations.
 
                 <div className="findOUtMoreButtonContainer">
-                  <a href="https://mbola.travelonly.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://affineweddings.travelonly.com" target="_blank" rel="noopener noreferrer">
                     <div className="white findOutMoreButton ttu pv3">
                     Find Out More
                   </div>

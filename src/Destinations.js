@@ -165,7 +165,7 @@ class Destinations extends Component {
               To Book Destination Weddings
             </div></h1>
             <div className="bookingContactUsButtonContainer pa4">
-              <a href="https://mbola.travelonly.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://affineweddings.travelonly.com" target="_blank" rel="noopener noreferrer">
                 <div className="white bookingContactUsButton tc ttu pv3">
                 Click Here
               </div>

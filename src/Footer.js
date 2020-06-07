@@ -25,7 +25,7 @@ class Footer extends Component {
             </a>
           </div>
           <div className="tc white pa3">
-            Copyright © 2017 Affine Weddings - All Rights Reserved.
+            Copyright © {new Date().getFullYear()} Affine Weddings - All Rights Reserved.
           </div>
           <hr width="10%"/>
         </div>

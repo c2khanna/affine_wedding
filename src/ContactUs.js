@@ -118,7 +118,7 @@ class ContactUs extends Component {
                 Affine Weddings
               </div>
               <div className="emailaddress pb2">planning@affineweddings.com</div>
-              1833-AFF-INE0
+              +1-604-992-8591
               <div className="pt4">Surrey, British Columbia, Canada</div>
             </div></h3>
           </div>
